@@ -1,5 +1,3 @@
-
-```
 # FileComparison
 
 **FileComparison** is a .NET console application designed for performing various file operations. It allows users to create, modify, and compare text and binary files. The application supports basic file operations as well as advanced operations using streams, providing a versatile tool for managing and analyzing file data.
@@ -35,7 +33,6 @@
    - **Text Files**: Identify duplicate lines between two text files.
    - **Binary Files**: Identify duplicate byte sequences between two binary files.
 
-```
 
 ## Basic File Operations
 
