@@ -17,6 +17,7 @@ public static class FileManager
         var lines1 = ReadFile(firstFilePath);
         var lines2 = ReadFile(secondFilePath);
 
+        //HashSet<T> to ensures that all elements are unique
         var uniqueLines = new HashSet<string>(lines1);
         var duplicates = new List<string>();
 
@@ -103,7 +104,6 @@ public static class FileManager
         if (!File.Exists(filePath))
         {
             Console.WriteLine($"File {filePath} does not exist. Creating a new file.");
-            WriteFile(filePath, newLines, append: false);
             return;
         }
 
