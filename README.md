@@ -1,6 +1,5 @@
-Here's a revised version of the `README.md` that includes explanations for basic file operations and stream-based operations, with detailed descriptions for each part:
 
-```markdown
+```
 # FileComparison
 
 **FileComparison** is a .NET console application designed for performing various file operations. It allows users to create, modify, and compare text and binary files. The application supports basic file operations as well as advanced operations using streams, providing a versatile tool for managing and analyzing file data.
