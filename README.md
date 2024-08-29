@@ -7,15 +7,10 @@
 ## Table of Contents
 
 - [Features](#features)
-- [Getting Started](#getting-started)
 - [Basic File Operations](#basic-file-operations)
 - [Stream-Based File Operations](#stream-based-file-operations)
 - [Usage](#usage)
 - [Example](#example)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <hr/>
 
@@ -124,3 +119,7 @@ An example of using the application:
 
 4. **Find Duplicate Lines**:
    - Compare `test1.txt` and `test2.txt` for duplicate lines.
+
+
+
+   <hr/>
