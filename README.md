@@ -2,6 +2,7 @@
 
 **FileComparison** is a .NET console application designed for performing various file operations. It allows users to create, modify, and compare text and binary files. The application supports basic file operations as well as advanced operations using streams, providing a versatile tool for managing and analyzing file data.
 
+<hr/>
 ## Table of Contents
 
 - [Features](#features)
@@ -14,6 +15,8 @@
 - [License](#license)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+
+<hr/>
 
 ## Features
 
@@ -33,6 +36,7 @@
    - **Text Files**: Identify duplicate lines between two text files.
    - **Binary Files**: Identify duplicate byte sequences between two binary files.
 
+<hr/>
 
 ## Basic File Operations
 
@@ -53,6 +57,8 @@ Basic file operations include creating, inserting, and deleting content from fil
 - **Text Files**: Delete a range of text from the file. The specified range is removed from the file, with the remaining content shifted as necessary.
 - **Binary Files**: Delete a range of binary data. The specified byte range is removed, and the remaining binary content is adjusted.
 
+<hr/>
+
 ## Stream-Based File Operations
 
 Stream-based file operations involve reading and writing files using streams. Streams provide a more flexible and efficient way to handle large files and perform complex file manipulations.
@@ -71,6 +77,8 @@ Stream-based file operations involve reading and writing files using streams. St
 
 - **Text Files**: Read the file content into a buffer, remove the specified range, and write the remaining content back to the file.
 - **Binary Files**: Read the binary data, remove the specified range, and write the updated binary data to the file.
+
+<hr/>
 
 ## Usage
 
@@ -97,9 +105,11 @@ Upon running the application, you will be presented with a menu to choose from v
 7. **Exit**:
    - Close the application.
 
+<hr/>
+
 ## Example
 
-Here’s an example of using the application:
+An example of using the application:
 
 1. **Create Files**:
    - Paths: `C:/Projects/FileComparison/test1.txt` and `C:/Projects/FileComparison/test2.txt`
@@ -113,20 +123,3 @@ Here’s an example of using the application:
 
 4. **Find Duplicate Lines**:
    - Compare `test1.txt` and `test2.txt` for duplicate lines.
-
-
-```
-
-### Explanation of Each Section:
-
-1. **Features**: Lists all the functionalities provided by the application.
-2. **Getting Started**: Instructions for setting up and running the project.
-3. **Basic File Operations**: Details on traditional file operations (create, insert, delete) without streams.
-4. **Stream-Based File Operations**: Details on how to handle file operations using streams, which are more efficient for large files.
-5. **Usage**: A guide on how to interact with the application and perform operations.
-6. **Example**: Provides a concrete example of using the application.
-7. **Contributing**: Instructions for contributing to the project.
-8. **License**: Information about the project's license.
-9. **Contact**: Contact information for further queries.
-10. **Acknowledgements**: Credits and thanks to tools and services used.
-
